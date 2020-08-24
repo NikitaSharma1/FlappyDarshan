@@ -184,7 +184,7 @@ if __name__== "__main__":
     GAME_SPRITES['background'] = pygame.image.load(BACKGROUND).convert()
     GAME_SPRITES['background'] = pygame.transform.scale(GAME_SPRITES['background'],(288,512))
     GAME_SPRITES['player'] = pygame.image.load(PLAYER).convert_alpha()
-    GAME_SPRITES['player'] = pygame.transform.scale(GAME_SPRITES['player'] ,(54,54))
+    GAME_SPRITES['player'] = pygame.transform.scale(GAME_SPRITES['player'] ,(50,50))
 
     while True:
         welcomeScreen()
